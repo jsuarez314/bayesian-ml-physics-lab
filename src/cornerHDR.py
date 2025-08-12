@@ -424,7 +424,7 @@ def corner(
 
             # PLOTS PVALUE ON THE 2D MAP
             # ADDED BY AMANDA <3
-            pvalue = spearmanr(x, y)[0]
+            pvalue = pearsonr(x, y)[0]
             pv_patch = Line2D([0], [0], marker='o', color='w', markeredgecolor='gray', markerfacecolor=cmap(norm(pvalue)), label='{:.2f}'.format(pvalue), markersize=3)
 
             if truths is not None:
@@ -495,7 +495,7 @@ def corner(
         cbar.ax.set_xticklabels(['-1', '0', '1'])  # vertically oriented colorbar
         # cbar.ax.yaxis.set_label_position('left')
         # cbar.ax.yaxis.set_ticks_position('left')        
-        cbar.set_label(label='Spearman coef.', size=18)
+        cbar.set_label(label='Pearson coef.', size=18)
 
     return fig, axes
 
