@@ -23,6 +23,8 @@ It walks through data generation, likelihood modeling, and parameter estimation.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ZDlHRoDN1_yvvaPJIKafEYG77uilO1Kp?usp=sharing)
 
+---
+
 ### 3. PINN Estimation of Position and Velocity
 This notebook applies a **Physics-Informed Neural Network (PINN)** to estimate the **position** and **velocity** of the oscillating fluid in the U-tube system.  
 The model learns directly from data while enforcing the governing physical equation during training.  
