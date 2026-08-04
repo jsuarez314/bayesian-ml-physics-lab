@@ -29,7 +29,7 @@ Click the badges below to open each notebook in Google Colab:
 |----------|-------------|
 | **01 – U-Tube Simulation** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nb3eGUpHN7Cb0frBrsLhDLiui9a3pRlz?usp=sharing) |
 | **02 – Bayesian Estimation** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ZDlHRoDN1_yvvaPJIKafEYG77uilO1Kp?usp=sharing) |
-| **03 – PINN Estimation** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13zoAuB60XjPxfaYHmCIelch7qcP4ctdd?usp=sharing) |
+| **03 – PINN Estimation** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1LCZ345Gx9bCQFPe73BuPorTkZKxBsSOA/view?usp=sharing) |
 
 To run locally, clone this repository and install the required Python packages listed in `requirements.txt`.
 
